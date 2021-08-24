@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="alert alert-primary" role="alert">
@@ -22,14 +26,21 @@
       <label for="name">Nombres:</label>
       <input type="name" class="form-control" id="nom" placeholder="Ingrese nombre" name="name">
     </div>
+    <form class="form-inline" action="/action_page.php">
+    <div class="container">
+
+  <form class="form-inline" action="/action_page.php">
     <div class="form-group">
-      <label for="lastname">Apellido Paterno:</label>
-      <input type="lastname" class="form-control" id="apepat" placeholder="Ingrse apellido paterno" name="lastname">
+      <label for="name">Apellido Paterno:</label>
+      <input type="name" class="form-control" id="email" placeholder="Ingrese apellido paterno" name="nmp">
     </div>
     <div class="form-group">
-      <label for="lastname">Apellido Materno:</label>
-      <input type="lastname" class="form-control" id="apemat" placeholder="Ingrese apellido materno" name="lastname">
+      <label for="name">Apellido Materno:</label>
+      <input type="name" class="form-control" id="email" placeholder="Ingrese apellido materno" name="nmm">
     </div>
+  </form>
+</div>
+  </form>
     <div class="form-group">
       <label for="gender">Sexo:</label>
       <input type="gender" class="form-control" id="gen" placeholder="Hombre / Mujer / Prefiero no especificar" name="gen">
@@ -53,7 +64,3 @@
     
     <button type="submit" class="btn btn-default">Registrar</button>
   </form>
-</div>
-
-</body>
-</html>
